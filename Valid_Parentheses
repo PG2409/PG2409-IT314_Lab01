@@ -31,7 +31,7 @@ bool isValid(string s)
         }
     }
 
-    return true;
+    return st.empty(); // Ensure all opening brackets are matched fixed the issue
 }
 
 int main()
